@@ -1,0 +1,36 @@
+{
+  "id": "dnd5e-2024-pdf-exporter",
+  "title": "D&D 2024 PDF Exporter",
+  "description": "Exports dnd5e character actors to the official fillable D&D 2024 character sheet PDF.",
+  "version": "0.7.0",
+  "authors": [
+    {
+      "name": "HornedPriestess"
+    }
+  ],
+  "url": "https://github.com/LittleRainbowFox/dnd5e-2024-pdf-exporter",
+  "manifest": "https://raw.githubusercontent.com/LittleRainbowFox/dnd5e-2024-pdf-exporter/main/module.json",
+  "download": "https://github.com/LittleRainbowFox/dnd5e-2024-pdf-exporter/releases/download/v0.7.0/dnd5e-2024-pdf-exporter.zip",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.3.3",
+          "verified": "5.3.3"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/exporter.css"
+  ]
+}
