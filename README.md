@@ -30,8 +30,9 @@ Then enable **D&D 2024 PDF Exporter** in the target world.
 
 ## Use
 
-- Open a character sheet and click the PDF header control.
-- Or right-click a character in the Actor Directory and choose **Export D&D 2024 PDF**.
+- Open a character sheet.
+- Open the sheet header menu.
+- Choose **Export PDF**.
 
 Fallback macro:
 
